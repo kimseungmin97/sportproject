@@ -1,0 +1,8 @@
+package com.ksm.dto;
+
+public class User_info {
+	private int user_info_index;
+	private String user_name;
+	private int user_age;
+	private String user_job;
+}

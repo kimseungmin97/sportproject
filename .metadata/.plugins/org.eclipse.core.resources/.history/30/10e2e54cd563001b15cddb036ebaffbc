@@ -1,0 +1,49 @@
+package com.ksm.service;
+
+import java.util.List;
+
+import javax.inject.Inject;
+
+import org.springframework.stereotype.Service;
+
+import com.ksm.dao.GameDao;
+import com.ksm.dto.SoccerGame;
+
+@Service
+public class GameServiceImpl implements GameService {
+	
+	@Inject
+	private GameDao dao;
+
+	@Override
+	public int soccerdate() throws Exception {
+		return dao.soccerdate();
+	}
+
+	@Override
+	public List<SoccerGame> monthlist(int month) throws Exception {
+		return dao.monthlist(month);
+	}
+
+	
+	@Override
+	public int count(int month) throws Exception {
+		return dao.count(month);
+	}
+
+	@Override
+	public void updatereuslt(SoccerGame soccerGame) throws Exception {
+		dao.updatereuslt(soccerGame);
+	}
+
+	@Override
+	public void homeupdate(SoccerGame soccerGame) throws Exception {
+		dao.homeupdate(soccerGame);
+		
+	}
+
+	@Override
+	public void awayupdate(SoccerGame soccerGame) throws Exception {
+		dao.awayupdate(soccerGame);
+	}
+}

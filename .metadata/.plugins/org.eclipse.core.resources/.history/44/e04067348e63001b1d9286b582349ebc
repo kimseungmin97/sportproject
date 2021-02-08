@@ -1,0 +1,65 @@
+package com.ksm.sport;
+
+import java.util.List;
+
+import javax.inject.Inject;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.ksm.dto.Order;
+import com.ksm.dto.Product;
+import com.ksm.service.ProductService;
+
+@Controller
+@RequestMapping(value = "/product", method= {RequestMethod.POST, RequestMethod.GET})
+public class ProductController {
+	
+	@Inject
+	ProductService service;
+	
+	@RequestMapping(value="/Productinsertpage", method= RequestMethod.POST)
+	public String insertpage() throws Exception {
+		return "AddProduct";
+	}
+	@RequestMapping(value="/productinsert", method= RequestMethod.POST)
+	public String insert(Product product) throws Exception {
+		service.insert(product);
+		return "redirect:/";
+	}
+	@RequestMapping(value="/productList", method=RequestMethod.POST)
+	public String productList(Model model, Product product	) throws Exception {
+		List <Product> list = null;
+		list = service.list();
+		model.addAttribute("productlist", list);
+		return "ProductList";
+	}
+	@RequestMapping(value="/productDetail", method=RequestMethod.POST)
+	public String productDetail(Model model, Product product) throws Exception {
+		Product detail = service.detail(product);
+		model.addAttribute("product", detail);
+		return "ProductDetail";
+	}
+	@RequestMapping(value="/searchList", method= RequestMethod.POST)
+	public String searchList(Product product, Model model) throws Exception {
+		List <Product> list = null;
+		list = service.searchList(product);
+		model.addAttribute("productlist", list);
+		model.addAttribute("product", product);
+
+		return "ProductList";
+	}
+	@RequestMapping(value="/productreviewinsert", method=RequestMethod.POST)
+	public String productreviewpage(@RequestParam("qseq") int qseq, Model model) throws Exception {
+		model.addAttribute("qseq", qseq);
+		return "Productreview";
+	}
+	@RequestMapping(value="/reviewinsert", method=RequestMethod.POST)
+	public String reviewinsert(@RequestParam("qseq") int qseq, Model model) throws Exception {
+		model.addAttribute("qseq", qseq);
+		return "Productreview";
+	}
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.dao{FreeboardDao.java[FreeboardDao" modifiers="513" timestamp="1612068347556"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.service{BoardService.java[BoardService" modifiers="513" timestamp="1612068386283"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.dao{UserDao.java[UserDao" modifiers="513" timestamp="1612339325714"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.service{UserService.java[UserService" modifiers="513" timestamp="1612339334099"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.dao{QnaDao.java[QnaDao" modifiers="513" timestamp="1611123821976"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.service{QnaService.java[QnaService" modifiers="513" timestamp="1611123826254"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.dao{ProductDao.java[ProductDao" modifiers="513" timestamp="1612079491004"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.service{ProductService.java[ProductService" modifiers="513" timestamp="1612079541091"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.dao{SportProductDao.java[SportProductDao" modifiers="513" timestamp="1612094844542"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.service{SportProductService.java[SportProductService" modifiers="513" timestamp="1611135387503"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.dao{GameDao.java[GameDao" modifiers="513" timestamp="1612152552829"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.service{GameService.java[GameService" modifiers="513" timestamp="1612152558425"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.dao{OrderDao.java[OrderDao" modifiers="513" timestamp="1612255350159"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.service{OrderService.java[OrderService" modifiers="513" timestamp="1612255399905"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.dao{PostDao.java[PostDao" modifiers="513" timestamp="1611551745739"/>
+<typeInfo handle="=SportProject/src\/main\/java&lt;com.ksm.service{PostService.java[PostService" modifiers="513" timestamp="1611551884565"/>
+</typeInfoHistroy>

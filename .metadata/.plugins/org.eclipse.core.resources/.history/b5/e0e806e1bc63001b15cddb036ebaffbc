@@ -1,0 +1,13 @@
+package com.ksm.dao;
+
+import java.util.List;
+
+import com.ksm.dto.SportProduct;
+
+public interface SportProductDao {
+	public int insert(SportProduct sportproduct) throws Exception;
+	public List<SportProduct> searchList(String selectbox, String searchtext) throws Exception;
+	public SportProduct select(SportProduct sportproduct) throws Exception;
+	public void homeupdate(SportProduct sportproduct) throws Exception;
+	public void awayupdate(SportProduct sportproduct) throws Exception;
+}

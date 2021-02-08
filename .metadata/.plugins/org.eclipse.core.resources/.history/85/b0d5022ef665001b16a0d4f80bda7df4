@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="/user/infoinsert" method="post">
+<h5>이름</h5>
+<input type="text" id="user_name" name="user_name">
+<h5>나이</h5>
+<input type="text" id="user_age" name="user_age">
+<h5>직업</h5>
+<input type="text" id="user_job" name="user_job">
+
+<input type="submit" value="추가하기">
+</form>
+</body>
+</html>

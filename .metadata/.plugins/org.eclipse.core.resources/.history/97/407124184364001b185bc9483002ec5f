@@ -1,0 +1,20 @@
+package com.ksm.dao;
+
+import java.util.Date;
+import java.util.List;
+
+import com.ksm.dto.SoccerGame;
+import com.ksm.dto.Soccerteam;
+
+public interface GameDao {
+	public int soccerdate() throws Exception;
+	public List<SoccerGame> monthlist(int month) throws Exception;
+	public int count(int month) throws Exception;
+	public void updatereuslt(SoccerGame soccerGame) throws Exception;
+	public void homeupdate(SoccerGame soccerGame) throws Exception;
+	public void awayupdate(SoccerGame soccerGame) throws Exception;
+	public SoccerGame selectone(int qseq) throws Exception;
+	public List<Soccerteam> teamlist () throws Exception;
+	public List<SoccerGame> aftertoday(Date today) throws Exception;
+	public List<SoccerGame> beforetoday(Date today) throws Exception;
+}
