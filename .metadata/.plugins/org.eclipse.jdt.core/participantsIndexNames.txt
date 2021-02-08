@@ -1,9 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\82103\πŸ≈¡ »≠∏È\sportproject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4055888646.index
-\abc.avc.abs\src\main\java
-C:\Users\82103\πŸ≈¡ »≠∏È\sportproject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1403975306.index
-\Project\src\main\java
-C:\Users\82103\πŸ≈¡ »≠∏È\sportproject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\563668845.index
-\SportProject\src\main\java
-C:\Users\82103\πŸ≈¡ »≠∏È\sportproject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\991909794.index
-\SportProject\src\main\java

@@ -1,8 +1,0 @@
-INDEX VERSION 1.4+C:\Users\82103\πŸ≈¡ »≠∏È\sportproject\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3285325420.index
-3786222755.index
-3662970432.index
-40055243.index
-1617955518.index
-563668845.index
-2185367503.index
